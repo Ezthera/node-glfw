@@ -651,7 +651,10 @@ JS_METHOD(CreateGLFWWindow) {
 
   // Set callback functions
   // glfw_events.Reset(info.This()->Get(JS_STR("events"))->ToObject());
-  glfw_events.Reset(Nan::To<v8::Object>(Nan::Get(info.This(), JS_STR("events").ToLocalChecked()).ToLocalChecked()).ToLocalChecked());
+  auto events = Nan::Get(info.This(), JS_STR("events").ToLocalChecked());
+  if (!events.IsEmpty()) {
+    glfw_events.Reset(Nan::To<v8::Object>(events.ToLocalChecked()).ToLocalChecked());
+  }
 
   SET_RETURN_VALUE(JS_NUM((uint64_t) window));
 }
