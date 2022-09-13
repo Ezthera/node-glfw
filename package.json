@@ -1,5 +1,5 @@
 {
-    "name": "@sol-0/node-glfw",
+    "name": "@ezthera/node-glfw",
     "version": "0.3.5",
     "description": "A NodeJS wrapper around GLFW",
     "main": "index.js",
