@@ -1,45 +1,47 @@
 {
-    "name": "@ezthera/node-glfw",
-    "version": "0.3.5",
-    "description": "A NodeJS wrapper around GLFW",
-    "main": "index.js",
-    "author": "Mikael Bourges-Sevenier <mikeseven@gmail.com>",
-    "contributors": [
-        "Magnus Hoff <maghoff@gmail.com>",
-        {
-            "name": "Mikael Bourges-Sevenier",
-            "email": "mikeseven@gmail.com",
-            "twitter": "msevenier"
-        },
-        "Kenny Yuan <kaining.yuan@intel.com>",
-        {
-            "name": "Kenny Yuan",
-            "email": "kaining.yuan@intel.com"
-        },
-        "Ting Shao <ting.shao@intel.com>",
-        {
-            "name": "Ting Shao",
-            "email": "ting.shao@intel.com"
-        }
-    ],
-    "keywords": [
-        "glfw",
-        "opengl",
-        "3d",
-        "graphics"
-    ],
-    "licenses": [
-        {
-            "type": "BSD",
-            "url": "http://github.com/maghoff/node-glfw/raw/master/LICENSES"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/sol-0/node-glfw"
-    },
-    "scripts": {},
-    "dependencies": {
-        "nan": "^2.16.0"
+  "name": "@ezthera/node-glfw",
+  "version": "0.3.5",
+  "description": "A NodeJS wrapper around GLFW",
+  "main": "index.js",
+  "author": "Mikael Bourges-Sevenier <mikeseven@gmail.com>",
+  "contributors": [
+    "Magnus Hoff <maghoff@gmail.com>",
+    "Mikael Bourges-Sevenier <mikeseven@gmail.com>",
+    "Kenny Yuan <kaining.yuan@intel.com>",
+    "Kenny Yuan <kaining.yuan@intel.com>",
+    "Ting Shao <ting.shao@intel.com>",
+    "Ting Shao <ting.shao@intel.com>"
+  ],
+  "keywords": [
+    "glfw",
+    "opengl",
+    "3d",
+    "graphics"
+  ],
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/maghoff/node-glfw/raw/master/LICENSES"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ezthera/node-glfw.git"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "nan": "^2.16.0"
+  },
+  "types": "./index.d.ts",
+  "gypfile": true,
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ezthera/node-glfw/issues"
+  },
+  "homepage": "https://github.com/Ezthera/node-glfw#readme"
 }
