@@ -43,5 +43,8 @@
   "bugs": {
     "url": "https://github.com/Ezthera/node-glfw/issues"
   },
-  "homepage": "https://github.com/Ezthera/node-glfw#readme"
+  "homepage": "https://github.com/Ezthera/node-glfw#readme",
+  "publishConfig": {
+    "@ezthera:registry": "https://npm.pkg.github.com"
+  }
 }
