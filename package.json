@@ -1,6 +1,6 @@
 {
   "name": "@ezthera/node-glfw",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "A NodeJS wrapper around GLFW",
   "main": "index.js",
   "author": "Mikael Bourges-Sevenier <mikeseven@gmail.com>",
