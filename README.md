@@ -1,3 +1,5 @@
+This is a fork of [https://github.com/kenny-y/node-glfw](https://github.com/kenny-y/node-glfw)
+
 NodeJS bindings to GLFW
 =======================
 
